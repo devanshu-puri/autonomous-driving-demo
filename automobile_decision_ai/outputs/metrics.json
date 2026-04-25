@@ -1,0 +1,55 @@
+{
+  "dataset": "comma10k_subset",
+  "num_samples": 60,
+  "train_samples": 48,
+  "test_samples": 12,
+  "pixel_accuracy": 0.8248838975694445,
+  "decision_accuracy": 0.4166666666666667,
+  "action_labels": [
+    "KEEP_STRAIGHT",
+    "SLOW_DOWN",
+    "STOP",
+    "MOVE_LEFT",
+    "MOVE_RIGHT",
+    "CAUTION"
+  ],
+  "decision_report": {
+    "KEEP_STRAIGHT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "MOVE_LEFT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "SLOW_DOWN": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3333333333333333,
+      "support": 3.0
+    },
+    "STOP": {
+      "precision": 0.5,
+      "recall": 0.8,
+      "f1-score": 0.6153846153846154,
+      "support": 5.0
+    },
+    "accuracy": 0.4166666666666667,
+    "macro avg": {
+      "precision": 0.20833333333333331,
+      "recall": 0.2833333333333333,
+      "f1-score": 0.23717948717948717,
+      "support": 12.0
+    },
+    "weighted avg": {
+      "precision": 0.2916666666666667,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.3397435897435897,
+      "support": 12.0
+    }
+  }
+}
