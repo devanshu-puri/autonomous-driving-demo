@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+automobile_decision_ai/__pycache__/
+automobile_decision_ai/src/**/__pycache__/
+automobile_decision_ai/tests/**/__pycache__/
+
+automobile_decision_ai/outputs/app_stdout.log
+automobile_decision_ai/outputs/app_stderr.log
