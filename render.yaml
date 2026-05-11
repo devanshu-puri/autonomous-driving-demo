@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: autonomous-driving-demo
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd automobile_decision_ai && gunicorn app:app
